@@ -1,0 +1,94 @@
+body {
+    font-family: 'Recoleta', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to right, #f8d1d1, #d1c6f8); /* Header background */
+    display: flex;  /* Use flexbox for layout */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center items horizontally */
+    width: 100%;  /* Ensure the header takes the full width */
+    padding: 20px 0;  /* Adjust padding to only top and bottom */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+header .logo h1 {
+    text-align: center;  /* Center the text within the heading */
+    margin: 0;           /* Remove default margin to avoid extra space */
+  
+    font-size: 50px;     /* Set font size for the heading */
+}
+
+nav {
+    margin-top: 10px; /* Add some space between the heading and navigation */
+}
+
+nav ul {
+    list-style: none;  /* Remove bullet points */
+    display: flex;     /* Align list items horizontally */
+    gap: 20px;        /* Space between navigation items */
+    padding: 0;       /* Remove default padding */
+}
+
+nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333;          /* Set link color */
+    font-weight: bold;    /* Make links bold */
+}
+
+main {
+    padding: 20px; /* Add padding around the main content */
+    text-align: center; /* Center text in main sections */
+}
+
+h2 {
+    color: #555; /* Color for subheadings */
+    font-size: 20px;
+}
+
+#rcorners1 {
+    border-radius: 25px;  /* Rounded corners */
+    background: #f8d1d1;   /* Background color */
+    padding: 20px;         /* Inner spacing */
+    width: 500px;          /* Width of the box */
+    height: 125px;         /* Height of the box */
+    margin: auto;          /* Centering the box */
+    text-align: center;    /* Centering text inside the box */
+}
+
+.menu-button {
+    background-color: #cf9393; /* Button background color */
+    color: #555;               /* Button text color */
+    padding: 15px 25px;        /* Button padding */
+    border: none;               /* Remove border */
+    border-radius: 200px;        /* Rounded corners */
+    cursor: pointer;           /* Change cursor to pointer on hover */
+    font-size: 20px;
+    font-family: 'Recoleta';
+}
+
+.menu-button:hover {
+    background-color: #d37878; /* Button hover color */
+}
+
+.footer-list {
+    list-style-type: none; /* Removes bullets */
+    padding: 0; /* Removes padding */
+    margin: 0; /* Removes margin */
+}
+
+footer {
+    text-align: center; /* Center footer text */
+    padding: 20px;      /* Padding for footer */
+    background: #f8d1d1; /* Footer background color */
+    position: relative; /* Change to relative to keep it in flow */
+    width: 97.9%;        /* Full width for footer */
+    bottom: 0;          /* Align footer to bottom */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}

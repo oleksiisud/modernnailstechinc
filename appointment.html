@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ModernNailsTechInc</title>
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/recoleta');
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+        body {
+            font-family: 'Recoleta', sans-serif; /* Use the Recoleta font */
+        }
+        h1 {
+            font-family: 'Libre Baskerville', serif; /* Use Libre Baskerville for h1 */
+        }
+
+        .box-container {
+            display: flex; /* Flexbox layout to align boxes side by side */
+            justify-content: space-around; /* Space between boxes */
+            align-items: center; /* Align boxes vertically */
+            margin-top: 20px; /* Margin from the top */
+        }
+
+        /* Styling for the first and second box */
+        .box {
+            border-radius: 25px;  /* Rounded corners */
+            background: #f8d1d1;  /* Background color */
+            padding: 20px;        /* Inner spacing */
+            width: 250px;         /* Width of the box */
+            height: 130px;        /* Height of the box */
+            text-align: center;   /* Centering text inside the box */
+            margin: 5px;          /* Margin between boxes */
+        }
+
+        .menu-button {
+            padding: 10px 20px;     /* Padding for buttons */
+            background-color: #ff7f7f; /* Button background color */
+            border: none;           /* Remove border */
+            color: white;           /* Text color */
+            border-radius: 10px;     /* Button corners */
+            cursor: pointer;        /* Pointer cursor on hover */
+        }
+
+        .menu-button:hover {
+            background-color: #ff4f4f; /* Hover effect */
+        }
+    </style>
+    <link rel="stylesheet" href="appointment.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>MODERN NAILS TECH INC</h1> 
+        </div>
+        <nav>
+            <ul>
+                <li><a href="c:\Users\Kenneth Ouy\modernnailstechinc.html">Home</a></li>
+                <li><a href="c:\Users\Kenneth Ouy\nailmenu.html">Nail Menu</a></li> 
+                <li><a href="c:\Users\Kenneth Ouy\appointment.html">Appointment</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home"></section>
+            <h2>To book an appointment, please send a direct message on our Instagram pages or contact one of our nail techs through there phone number</h2>
+            
+            <!-- Section with booking options -->
+            <section id="appointment">
+                <div class="box-container">
+                    <!-- First box -->
+                    <div class="box" id="rcorners1">
+                        <h3>Book an appointment with Malena!</h3>
+                        <a href="https://www.instagram.com/modernnailstech/?hl=en" target="_blank">
+                            <button class="menu-button">Book now</button>
+                        </a>
+                    </div>
+
+                    <!-- Second box -->
+                    <div class="box" id="rcorners2">
+                        <h3>Book an appointment with Lena!</h3>
+                        <a href="https://www.instagram.com/lenasnailkhmer/?hl=en" target="_blank">
+                            <button class="menu-button">Book now</button>
+                        </a>
+                    </div>
+
+                    <!-- Third box -->
+                    <div class="box" id="rcorners3">
+                        <h3>Book an appointment with Kimmy</h3>
+                        <a href="https://www.instagram.com/kimmy_khmer/?hl=en" target="_blank">
+                            <button class="menu-button">Book now</button>
+                        </a>
+                    </div>
+                </div>
+            </section>
+    </main>
+
+    <footer>
+        <ul class="footer-list">
+            <li>2014 Church Avenue Room 9</li>
+            <li>Monday-Saturday 10AM-7:30PM</li>
+            <li>Sunday 10AM-5:00PM</li>
+            <li>&copy; 2024 Modern Nails Tech INC</li>
+        </ul>
+    </footer>
+</body>
+</html>
